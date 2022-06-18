@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#f1c40f"
+    android:layout_margin="20dp"
+    android:id="@+id/linear"
+    >
+    <ImageView
+        android:id="@+id/imagev"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/cover"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        >
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/imgshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show image" />
+
+    <Button
+        android:id="@+id/imgremove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="remove" />
+
+    <Button
+        android:id="@+id/showtoast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click me" />
+    <TextView
+        android:id="@+id/secondpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="see more"
+        android:background="@color/black"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:layout_margin="50dp">
+
+    </TextView>
+
+
+</LinearLayout>
